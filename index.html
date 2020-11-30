@@ -1,254 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/profile.JPG" type="image/JPG" sizes="16x16">
-    <title>Pranav K V</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/prnv.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
-
-<style>
-.home-bg-img{
-    position: relative;
-    background: linear-gradient(090deg, hsl(201.2, 13.2%, 25.3%) 0%, hsl(201.2, 13%, 56%) 100%);
-  }
-.home-bg-img::before{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.3;
-    background: url("images/home-bg.JPG") no-repeat center center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: cover;
-  }
-.work-bg{
-  position: relative;
-  background: #0042d1;
-}
-.work-bg::before{
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  opacity: 0.3;
-  background: url("images/work-bg.jpg") no-repeat center center;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size: cover;
-}
-</style>
-
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
-
 <body>
+   
 
-<header class="fixed-top">
-    <div class="row">
-            <div id="navigation-div" class="col-md-12 bg mx-auto" style="opacity: 0.95;">
-                <nav id="navigation" class="navbar navigation-bg navbar-expand-lg navbar-dark p-3">
-                    <h2 id="name" class="pranav">Pranav K V</h2>
-                    <button class="navbar-toggler nav-btn ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-md-auto">
-                            <li class="nav-item active pr-4" >
-                                <a class="nav-link" href="#home"><strong class="scrl nav-txt-sz">HOME</strong><span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item pr-4">
-                                <a class="nav-link" href="#about"><strong class="scrl nav-txt-sz">ABOUT</strong></a>
-                            </li>
-                            <li class="nav-item pr-4">
-                                <a class="nav-link" href="#work"><strong class="scrl nav-txt-sz">WORK</strong></a>
-                            </li>
-                            <li class="nav-item pd-r">
-                                <a class="nav-link nav-txt-sz" href="#contact-info"><strong class="scrl nav-txt-sz">CONTACT</strong></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        
-    </div>
-</header>
-
-<section id="home" class="full-scrn home-bg-img">
-    <div class="container">
-            <div class="row col-md-12 home-text-sz mgn-tp pk">
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-
-                <div class="col-md-12 col-12" style="text-align: center;">
-                    <p class="home-text-sz">I am Pranav K V</p>
-                </div>
-
-                <div class="col-md-12 col-12" style="text-align: center;" >
-                    <h1 class="anim">Web-Developer</h1>
-                </div>
-
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-                <div class="col-md-12 col-12"></div>
-            </div>
-    </div>
-</section>
-
-<section id="about" class="qualification-bg qualification-shdw">
-    <div class="container"><div class="row"><div class="col-md-12"></div></div></div>
-
-    <div class="container col-11 bg-white mt-5 mb-5 shdw-box div-sz p-5">
-        <br>
-        <div class="row">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
             
-            <div class="col-md-6">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img class="ml-md-5" src="images/profile.JPG" alt="comming..." style="height: 11rem; width: 11rem; border-radius: 0.3rem;">
-                        </div>
-                        <div class="col-md-6 pt-3">
-                            <p><strong>Name:</strong> Pranav K V</p>
-                            <p><strong>Profile:</strong> Web-Developer</p>
-                            <p><strong>Email:</strong> pranavkv02@gmail.com</p>
-                            
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </nav>
 
-                <div class="col-12 col-md-11 pt-3 ml-md-2">
-                    <h5>Skills</h5>
-                    <h6 class="text-muted pt-2">HTML</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-                    </div>
-                </div>
-                <br>
-                <div class="col-12 col-md-11 ml-md-2">
-                    <h6 class="text-muted">CSS</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
-                    </div>
-                </div>
-                <br>
-                <div class="col-md-11 ml-md-2">
-                    <h6 class="text-muted">Java Script</h6>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
-                    </div>
-                </div>
-                <div class="col-md-12 pt-4 ml-md-2">
-                    <button class="resume">Download Resume</button>
-                </div>
-                <br>
-            </div>
-            <div class="col-md-6 pb-5 pt-md-0 pt-5 pad-r pr-md-5 pr-5">
-                <div class="col-md-12 col-12"><h2 class="pb-2" style="font-family: 'Quicksand', sans-serif; font-weight: bold;">About me</h2></div>
-                <div class="col-md-2 col-3 bdr-b ml-3"></div>
-                <p style="font-weight: 400;" class="text-muted pad-r pt-4">I am pranav who is interested in programming and 
-                    computer related topics. As a learner I am trying to learn new things in programming and also try them in
-                    real life programs. So I wanted to do things that comes with programming. So i chose to build my own persoal
-                     website.. 
-                </p>
-                <p style="font-weight: 400;" class="text-muted pad-r">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut blandit mi. Mauris et ultrices sem, eu aliquet leo. Phasellus dictum fringilla ultrices. Sed sed ante nibh.
-                     Aliquam fermentum tincidunt justo sit amet egestas. 
-                     Proin cursus lectus ut eros imperdiet aliquam. Vestibulum tincidunt vehicula maximus.
-                </p>
-                <b style="font-family: 'Quicksand', sans-serif; font-weight: 700; color: rgb(71, 66, 66); font-size: 1.3rem;">TRAINING AND CERTIFICATION</b>
-                <ul class="list-padding" style="font-weight: 500;color: rgb(133, 124, 124); font-size: 1.2rem;">
-                    <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nis.</li>
-                    <li>Praesent dapibus, neque id cursus faucibus.</li>
-                    <li>Phasellus ultrices nulla quis nibh. Quisque a lectus.</li>
-                    <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis.</li>
-                </ul>
-            </div>
+         
+    <div class="home" id="home"> 
+        <div class="homeup">
+            <h5>Hai</h5>
+            <h2>I am <span>Pranav K V</span></h2>
         </div>
     </div>
-
-    <div class="container"><div class="row"></div></div>
-    
-    <div class="container fixed-bottom col-12">
+   
+    <div class="container pb-5" id="about">
         <div class="row">
-            <div class="col-md-2 col-2"></div>
-            <div class="col-md-2 col-2"></div>
-            <div class="col-md-2 col-2"></div>
-            <div class="col-md-2 col-2"></div>
-            <div class="col-md-2 col-1"></div>
-            <div class="col-md-2 col-2" style="text-align: right; align-items: center;">
-                <a href="#home" ><i id="top" class="fas fa-chevron-circle-up top-icon pb-md-3 pb-3"></i></a>
+            <div class="col-md-6 col-12 about-img">
+                <h4 >About me</h4>
+                <img src="./images/profile.JPG" alt="loading.."></div>
+            <div class="col-md-6 col-12 about-para p-5 ">
+                
+                <p>I am pranav who is interested in programming and computer related topics.
+                     As a learner I am trying to learn new things in programming and also try them in real life programs. 
+                    So I wanted to do things that comes with programming. So i chose to build my own persoal website.. </p>
+
             </div>
         </div>
     </div>
-</section>
-
-<section id="work" class="work-bg">
-    <div class="container col-11">
-        <div class="col-md-12" style="padding-bottom: 5rem;"></div>
-        <div class="row text-center">
-            <div class="col-md-3 col-12">
-                <i class="work-card far fa-check-circle pt-md-0 pt-5 clor"></i>
-                <h2 class="text-white work-text-num ">0</h2>
-                <h4 class="text-white work-text">WORKS COMPLETED</h4>
-            </div>
-            <div class="col-md-3 col-12 pt-md-0 pt-5">
-                <i class="work-card far fa-calendar clor"></i>
-                <h2 class="text-white pt-md-2 work-text-num">0</h2>
-                <h4 class="text-white work-text">YEARS OF EXPERIENCE</h4>
-            </div>
-            <div class="col-md-3 col-12 pt-md-0 pt-5">
-                <i class="work-card fas fa-users clor"></i>
-                <h2 class="text-white work-text-num pt-2">0</h2>
-                <h4 class="text-white work-text">TOTAL CLIENTS</h4>
-            </div>
-            <div class="col-md-3 col-12 pt-md-0 pt-5">
-                <i class="work-card fas fa-award clor"></i>
-                <h2 class="text-white work-text-num pt-2">0</h2>
-                <h4 class="text-white work-text">AWARD WON</h4>
-            </div>
-        </div>
-        <div class="col-md-12" style="padding-top: 5rem;"></div>
-    </div>
-</section>
-
-<section class="bg-clr">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-12 m-2">
-                <p class="text-white text-center">
-                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" style="color: blue;"></i></a>      
-                    <a href="https://www.instagram.com/"><i class="fab fa-instagram" style="color: #ba33b1;"></i></a>
-                    <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a><br>
-                    <strong>©</strong> Copyright <strong>Naveen Murali</strong>. All Rights Reserved<br> Designed by <strong>Naveen Murali</strong>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
     
+    <div class="container skills pt-5 pb-5 ">
+        <div class="row">
+            <div class="col-md-6 col-12 p-bar">
+                <p>html&css</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+                </div>
+                <p>Pyhton</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                </div>
+                <p>Node js</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 skill-image">
+                <h4>Skills</h4>
+                <img src="./images/focused_working.png" alt="">  
+            </div>  
+        </div>
+    </div>
+    <div class="container footer">
+        <div class="row">
+            <div class="col-md-12">
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/15d70f3266.js" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="JavaScript/prnv.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     
-
 </body>
 </html>
