@@ -86,7 +86,7 @@ nav{
     justify-content: center;
     
 }
-.skill-image h4{
+.skills h4{
     padding:1.8rem 0rem;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -95,4 +95,7 @@ nav{
 }
 .p-bar>p{
     margin-top: 3rem;
+    letter-spacing: 2px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 400;
 }
