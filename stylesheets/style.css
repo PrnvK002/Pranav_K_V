@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin : 0;
+    font-family: 'Quicksand',sans-serif;
+}
+nav{
+    box-shadow: 2px 4px 5px 0px rgba(189, 187, 187, 0.74);
+    
+}
+.home{
+    background-image: url('./images/home-bg.JPG');
+    width: 100vw; 
+    height: 100vh; /* You must set a specified height */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center center; /* Center the image */
+    background-repeat: repeat-x; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background: collapse;
+    position: relative;
+}
+.homeup{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    background:rgba(59, 59, 59, 0.356);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.homeup h5,.homeup h2{
+    padding: 0rem 4rem;
+    color: rgb(235, 228, 228);
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+
+}
+.homeup h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+.homeup h2{
+    font-size: 50px ;
+    font-weight:600;
+}
+.about-img{
+    display: flex;
+    flex-direction: column;
+}
+.about-img h4{
+    padding:1.8rem 0rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+
+}
+.about-img img{
+    width: 20vw;
+    align-self: center;
+}
+.about-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-para p{
+    letter-spacing: 2px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 400;
+    /* padding-right: 2rem; */
+}
+.skill-image img{
+    width : 30vw;
+    margin-left: 5rem;
+ 
+}
+.skill-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.skills h4{
+    padding:1.8rem 0rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+
+}
+.p-bar>p{
+    margin-top: 3rem;
+    letter-spacing: 2px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 400;
+}
