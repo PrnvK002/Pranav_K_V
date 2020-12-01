@@ -5,9 +5,12 @@ body{
     margin : 0;
     font-family: 'Quicksand',sans-serif;
 }
-nav{
-    box-shadow: 2px 4px 5px 0px rgba(189, 187, 187, 0.74);
+.nav-colour{
+    color: #cccccc;   
+}
+.nav-colour:hover{
     
+    font-size:1.2rem;
 }
 .home{
     background-image: url('../images/home-bg.JPG');
@@ -99,3 +102,21 @@ nav{
     font-family: 'Quicksand',sans-serif;
     font-weight: 400;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .icons h5{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:600;
+
+  }
+  .copyright p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight:400;
+
+  }
