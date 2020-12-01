@@ -10,7 +10,7 @@ nav{
     
 }
 .home{
-    background-image: url('./images/home-bg.JPG');
+    background-image: url('../images/home-bg.JPG');
     width: 100vw; 
     height: 100vh; /* You must set a specified height */
     background-color: #cccccc; /* Used if the image is unavailable */
