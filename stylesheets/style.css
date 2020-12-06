@@ -5,13 +5,15 @@ body{
     margin : 0;
     font-family: 'Quicksand',sans-serif;
 }
-.nav-colour{
+.nav-colour {
     color: #cccccc;   
 }
 .nav-colour:hover{
     
     font-size:1.2rem;
 }
+ 
+
 .home{
     background-image: url('../images/home-bg.JPG');
     width: 100vw; 
@@ -78,8 +80,10 @@ body{
     /* padding-right: 2rem; */
 }
 .skill-image img{
-    width : 30vw;
-    margin-left: 5rem;
+    width : 35vw;
+    height: auto;
+    padding-top: 4rem;
+    padding-left:3rem;
  
 }
 .skill-image{
