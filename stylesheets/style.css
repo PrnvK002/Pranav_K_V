@@ -79,28 +79,33 @@ body{
     font-weight: 400;
     /* padding-right: 2rem; */
 }
+
 .skill-image img{
     width : 35vw;
-    height: auto;
+    height: 60vh;
     padding-top: 4rem;
-    padding-left:3rem;
+    padding-left:2rem;
  
 }
 .skill-image{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     
 }
-.skills h4{
-    padding:1.8rem 0rem;
+.skl h4{
+    padding:1.8rem rem;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight:600;
 
 }
-.p-bar>p{
+
+    
+
+.p-bar p{
     margin-top: 3rem;
     letter-spacing: 2px;
     font-family: 'Quicksand',sans-serif;
@@ -123,4 +128,14 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-weight:400;
 
+  }
+  @media(max-width: 680px ){
+      .skill-image img{
+          width : 80vw;
+          height: auto;
+          
+      }
+      footer{
+          padding-top:2rem;
+      }
   }
